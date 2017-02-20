@@ -6,6 +6,7 @@
     import android.content.Intent;
     import android.widget.Button;
     import android.view.View;
+    import org.osmdroid.tileprovider.tilesource.TileSourceFactory;
 
     public class MapChooseActivity extends Activity implements View.OnClickListener {
 
