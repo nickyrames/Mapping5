@@ -1,9 +1,6 @@
 <resources>
     <string name="app_name">Mapping2</string>
     <string name="choosemap">Choose the map styles</string>
-
-    Button regular = (Button)findViewById(R.id.btnRegular);
-    regular.setOnClickListener(this);
-    Button cyclemap = (Button)findViewById(R.id.btnCyclemap);
-    cyclemap.setOnClickListener(this);
+    <string name="regularview">Regular view</string>
+    <string name="cyclemapview">Cycle Map view</string>
 </resources>
