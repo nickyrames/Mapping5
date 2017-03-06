@@ -75,7 +75,9 @@ public class MainActivity extends Activity
             Intent intent = new Intent(this,MapChooseActivity.class);
             startActivityForResult(intent,0);
             return true;
-        }
+
+
+        } else if(item.getItemId() == R.id.setlocation)
         return false;
     }
 
